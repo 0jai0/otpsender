@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from instagrapi import Client
 
-app = FastAPI()
+app = FastAPI() 
 
 class OTPRequest(BaseModel):
     username: str
