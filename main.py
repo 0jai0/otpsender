@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from instagrapi import Client
 
 app = FastAPI() 
-
+ 
 class OTPRequest(BaseModel):
     username: str
     password: str
