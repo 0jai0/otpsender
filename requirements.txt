@@ -1,3 +1,5 @@
 fastapi
 uvicorn
 instagrapi
+pydantic
+google-auth
