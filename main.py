@@ -20,3 +20,6 @@ def send_otp(data: OTPRequest):
         return {"success": True, "message": "OTP sent successfully!"}
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
+
+
+uvicorn main:app --reload
