@@ -21,5 +21,3 @@ def send_otp(data: OTPRequest):
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
-
-uvicorn main:app --reload
