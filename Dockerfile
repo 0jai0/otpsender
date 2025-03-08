@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.10
  
 # assumes app.py contains your fastapi app
 COPY app.py app.py
